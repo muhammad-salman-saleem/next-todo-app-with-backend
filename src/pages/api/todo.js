@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const uri =
-  "mongodb+srv://msalman1221998:bsf1805004@cluster0.dvmf9te.mongodb.net/todo_app";
+  "mongodb://localhost:27017/todo_app?authSource=todo_app";
 
 mongoose
   .connect(uri, { useNewUrlParser: true })
